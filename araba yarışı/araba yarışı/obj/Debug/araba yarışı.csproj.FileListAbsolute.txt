@@ -1,0 +1,11 @@
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\bin\Debug\araba yarışı.exe.config
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\bin\Debug\araba yarışı.exe
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\bin\Debug\araba yarışı.pdb
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba yarışı.csproj.AssemblyReference.cache
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba yarışı.csproj.SuggestedBindingRedirects.cache
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba_yarışı.Properties.Resources.resources
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba yarışı.csproj.GenerateResource.cache
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba yarışı.csproj.CoreCompileInputs.cache
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba yarışı.exe
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba yarışı.pdb
+C:\Users\kyrdk\Desktop\C# Kodları\araba yarışı\araba yarışı\obj\Debug\araba_yarışı.Form1.resources
