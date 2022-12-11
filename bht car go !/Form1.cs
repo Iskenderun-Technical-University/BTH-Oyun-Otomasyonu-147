@@ -51,5 +51,30 @@ namespace bht_car_go__
         {
 
         }
+
+        private void labelsolserit5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelsolserit4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelsolserit3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelsolserit2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelsolserit6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
