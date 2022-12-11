@@ -186,13 +186,14 @@
             // 
             // kırmızıaraba
             // 
-            this.kırmızıaraba.Image = global::bht_car_go__.Properties.Resources.car3;
-            this.kırmızıaraba.Location = new System.Drawing.Point(311, 449);
+            this.kırmızıaraba.Image = ((System.Drawing.Image)(resources.GetObject("kırmızıaraba.Image")));
+            this.kırmızıaraba.Location = new System.Drawing.Point(304, 450);
             this.kırmızıaraba.Name = "kırmızıaraba";
             this.kırmızıaraba.Size = new System.Drawing.Size(100, 183);
             this.kırmızıaraba.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.kırmızıaraba.TabIndex = 29;
             this.kırmızıaraba.TabStop = false;
+            this.kırmızıaraba.Click += new System.EventHandler(this.kırmızıaraba_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -243,7 +244,7 @@
             this.labelderece.BackColor = System.Drawing.Color.Black;
             this.labelderece.Font = new System.Drawing.Font("MS Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelderece.ForeColor = System.Drawing.Color.White;
-            this.labelderece.Location = new System.Drawing.Point(571, 652);
+            this.labelderece.Location = new System.Drawing.Point(582, 652);
             this.labelderece.Name = "labelderece";
             this.labelderece.Size = new System.Drawing.Size(54, 28);
             this.labelderece.TabIndex = 35;
@@ -303,9 +304,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "BHT CAR GO !";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.kırmızıaraba)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
