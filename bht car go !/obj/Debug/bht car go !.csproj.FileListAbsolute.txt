@@ -20,3 +20,14 @@ C:\Users\totol\Desktop\bht\bht car go !\obj\Debug\bht car go !.csproj.GenerateRe
 C:\Users\totol\Desktop\bht\bht car go !\obj\Debug\bht car go !.csproj.CoreCompileInputs.cache
 C:\Users\totol\Desktop\bht\bht car go !\obj\Debug\bht car go !.exe
 C:\Users\totol\Desktop\bht\bht car go !\obj\Debug\bht car go !.pdb
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\bin\Debug\bht car go !.exe.config
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\bin\Debug\bht car go !.exe
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\bin\Debug\bht car go !.pdb
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht car go !.csproj.AssemblyReference.cache
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht car go !.csproj.SuggestedBindingRedirects.cache
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht_car_go__.Form1.resources
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht_car_go__.Properties.Resources.resources
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht car go !.csproj.GenerateResource.cache
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht car go !.csproj.CoreCompileInputs.cache
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht car go !.exe
+C:\Users\MY ASUS\Desktop\Yeni klasör\bht car go !\obj\Debug\bht car go !.pdb

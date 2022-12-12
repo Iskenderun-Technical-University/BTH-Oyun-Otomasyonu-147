@@ -98,12 +98,12 @@ namespace bht_car_go__
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Right)
+            if(e.KeyCode == Keys.Right || e.KeyCode ==Keys.D)
             {
                 if (seritsayisi < 2)
                     seritsayisi++;
             }
-            else if (e.KeyCode == Keys.Left)
+            else if (e.KeyCode == Keys.Left || e.KeyCode==Keys.A)
             {
                 if (seritsayisi > 0)
                     seritsayisi--;
