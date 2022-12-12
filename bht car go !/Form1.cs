@@ -103,7 +103,7 @@ namespace bht_car_go__
                 if (seritsayisi < 2)
                     seritsayisi++;
             }
-            else if (e.KeyCode == Keys.Left || e.KeyCode==Keys.A)
+            else if (e.KeyCode == Keys.Left || e.KeyCode ==Keys.A)
             {
                 if (seritsayisi > 0)
                     seritsayisi--;
