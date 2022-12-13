@@ -121,7 +121,7 @@
   <data name="kırmızıaraba.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAANoAAAGhCAYAAAAHj6ptAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
-        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAP+WSURBVHhe7H11uFXV+vXe++ze
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxEAAAsRAX9kX5EAAP+WSURBVHhe7H11uFXV+vXe++ze
         +3R30t0NokhKd3cjISAlUoIiiIpKHgQEBekUpbu7uw/d3e83xlxnHY5c/F0vF9Hvee4f41lrr71yznfM
         N+Y75zQ8fPjwb8WjR48Mt2/dMpxPOmu4d++e4cGDB9rxh48UHuL/W9euG65fumR4yP/0/3kc1507m2Q4
         ffSo4fCO7YZ9a9YY7t2+bbgLnDt50nDh2DHDpRPHce5DXH/RcO74McPZwwfV/sOHDwyXkpIM50+cNCQd
@@ -2985,6 +2985,9 @@
         NYQ9Sp3+AAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="timerserit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAAAAAAAEAIAANdgAAlgAAAICAAAABACAAKAgBAKN2AABgYAAAAQAgAKiUAADLfgEASEgAAAEA

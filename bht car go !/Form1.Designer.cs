@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,6 +53,7 @@
             this.labelderece = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.timerserit = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.kırmızıaraba)).BeginInit();
             this.SuspendLayout();
             // 
@@ -274,6 +276,12 @@
             this.label10.TabIndex = 37;
             this.label10.Text = "YOL:";
             // 
+            // timerserit
+            // 
+            this.timerserit.Enabled = true;
+            this.timerserit.Interval = 200;
+            this.timerserit.Tick += new System.EventHandler(this.timerserit_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -340,6 +348,7 @@
         private System.Windows.Forms.Label labelderece;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Timer timerserit;
     }
 }
 

@@ -114,5 +114,19 @@ namespace bht_car_go__
         {
             aracyerine();
         }
+        bool seritharaket = false;
+        private void timerserit_Tick(object sender, EventArgs e)
+        {
+            if (seritharaket == false)
+            {
+                for (int i =1;i<7;i++ )
+                {
+                    this.Controls.Find("labelsolserit" + i.ToString(), true)[0].Top -= 25;
+                    this.Controls.Find("labelsagserit" + i.ToString(), true)[0].Top -= 25;
+
+                }
+            }
+
+        }
     }
 }
