@@ -147,6 +147,12 @@ namespace bht_car_go__
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            for (var i = 0; i < rndcar.Length; i++)
+            {
+                rndcar[i] = new random_car();
+
+            }
+            rndcar[0].vakit = true;
             aracyerine();
         }
         // grafiğimizdeki şeritleri for döngüsüyle sonsuz döngüye sokarak hep haraket etmesini sağladık.
@@ -179,6 +185,38 @@ namespace bht_car_go__
     
             
 
+        }
+
+        private void timerrandomcar_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < rndcar.Length; i++)
+            {
+                if (!rndcar[i].fakehavecar && rndcar[i].vakit)
+                {
+                    rndcar[i].fakecar = new PictureBox();
+                    bringrandomcar(rndcar[i].fakecar);
+                    rndcar[i].fakecar.Size = new Size(90, 150);
+                    rndcar[i].fakecar.Top = -rndcar[i].fakecar.Height;
+
+                    int seriteyerlestir = R.Next(0, 3);
+
+                    if (seriteyerlestir == 0)
+                    {
+                        rndcar[i].fakecar.Left = 55;
+                    }
+                    else if (seriteyerlestir == 1)
+                    {
+                        rndcar[i].fakecar.Left = 210;
+                    }
+                    else if (seriteyerlestir == 2)
+                    {
+                        rndcar[i].fakecar.Left = 390;
+                    }
+
+                    this.Controls.Add(rndcar[i].fakecar);
+                    rndcar[i].fakehavecar = true;
+                }
+            }
         }
     }
 }

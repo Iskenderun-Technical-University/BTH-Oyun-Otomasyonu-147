@@ -53,6 +53,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.timerserit = new System.Windows.Forms.Timer(this.components);
+            this.timerrandomcar = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.kırmızıaraba)).BeginInit();
             this.SuspendLayout();
             // 
@@ -274,6 +275,12 @@
             this.timerserit.Interval = 200;
             this.timerserit.Tick += new System.EventHandler(this.timerserit_Tick);
             // 
+            // timerrandomcar
+            // 
+            this.timerrandomcar.Enabled = true;
+            this.timerrandomcar.Interval = 200;
+            this.timerrandomcar.Tick += new System.EventHandler(this.timerrandomcar_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -339,6 +346,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer timerserit;
+        private System.Windows.Forms.Timer timerrandomcar;
     }
 }
 
