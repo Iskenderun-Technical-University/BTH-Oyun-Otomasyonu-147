@@ -46,7 +46,6 @@
             this.labelsolserit5 = new System.Windows.Forms.Label();
             this.labelsagserit5 = new System.Windows.Forms.Label();
             this.kırmızıaraba = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.labelhız = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.labelyol = new System.Windows.Forms.Label();
@@ -188,21 +187,14 @@
             // 
             // kırmızıaraba
             // 
-            this.kırmızıaraba.Image = ((System.Drawing.Image)(resources.GetObject("kırmızıaraba.Image")));
+            this.kırmızıaraba.Image = global::bht_car_go__.Properties.Resources.car1;
             this.kırmızıaraba.Location = new System.Drawing.Point(304, 450);
             this.kırmızıaraba.Name = "kırmızıaraba";
-            this.kırmızıaraba.Size = new System.Drawing.Size(100, 183);
+            this.kırmızıaraba.Size = new System.Drawing.Size(90, 150);
             this.kırmızıaraba.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.kırmızıaraba.TabIndex = 29;
             this.kırmızıaraba.TabStop = false;
             this.kırmızıaraba.Click += new System.EventHandler(this.kırmızıaraba_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(498, 287);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(8, 8);
-            this.flowLayoutPanel1.TabIndex = 31;
             // 
             // labelhız
             // 
@@ -294,7 +286,6 @@
             this.Controls.Add(this.labelyol);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.labelhız);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.kırmızıaraba);
             this.Controls.Add(this.labelsagserit5);
             this.Controls.Add(this.labelsolserit5);
@@ -341,7 +332,6 @@
         private System.Windows.Forms.Label labelsolserit5;
         private System.Windows.Forms.Label labelsagserit5;
         private System.Windows.Forms.PictureBox kırmızıaraba;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label labelhız;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label labelyol;

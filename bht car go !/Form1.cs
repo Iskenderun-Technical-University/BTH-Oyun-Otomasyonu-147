@@ -16,8 +16,41 @@ namespace bht_car_go__
         {
             InitializeComponent();
         }
-
+        // değişkenler tanımlandı
         int seritsayisi = 1;
+        int yol = 0;
+        int hız = 70;
+        //rastgele gelecek olan arabalar için R tanımlandı
+        Random R = new Random();
+        class random_car
+        {
+            public bool fakehavecar = false;
+            public PictureBox fakecar;
+            public bool vakit = false;
+        }
+        random_car[] rndcar = new random_car[2];
+        // oyunumuzda trafikteki arabaların rastgele gelmesini sağlayacak random komutunu kullandık
+        void bringrandomcar(PictureBox pb)
+        {
+            int rnd = R.Next(0, 4);
+            switch (rnd)
+            {
+                case 0:
+                    pb.Image = Properties.Resources.car0;
+                    break;
+                case 1:
+                    pb.Image = Properties.Resources.car1;
+                    break;
+                case 2:
+                    pb.Image = Properties.Resources.car2;
+                    break;
+                case 3:
+                    pb.Image = Properties.Resources.car3;
+                    break;
+
+            }
+            pb.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
 
 
         private void label5_Click(object sender, EventArgs e)
@@ -81,6 +114,7 @@ namespace bht_car_go__
         {
 
         }
+        //if else location komutlarıyla araba sağ sol yaptıgında bulunması gereken yerler belirlendi
         private void aracyerine()
         {
             if(seritsayisi==1)
@@ -96,6 +130,7 @@ namespace bht_car_go__
                 kırmızıaraba.Location = new Point(385, 360);
             }
         }
+        //// arabaya e.keykode ile yön tuşları atandı
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if(e.KeyCode == Keys.Right || e.KeyCode ==Keys.D)
@@ -114,6 +149,7 @@ namespace bht_car_go__
         {
             aracyerine();
         }
+        // grafiğimizdeki şeritleri for döngüsüyle sonsuz döngüye sokarak hep haraket etmesini sağladık.
         bool seritharaket = false;
         private void timerserit_Tick(object sender, EventArgs e)
         {
@@ -123,9 +159,25 @@ namespace bht_car_go__
                 {
                     this.Controls.Find("labelsolserit" + i.ToString(), true)[0].Top -= 25;
                     this.Controls.Find("labelsagserit" + i.ToString(), true)[0].Top -= 25;
+                    seritharaket = true;
 
                 }
             }
+            else
+            {
+                for (int i = 1; i < 7; i++)
+                {
+                    this.Controls.Find("labelsolserit" + i.ToString(), true)[0].Top += 25;
+                    this.Controls.Find("labelsagserit" + i.ToString(), true)[0].Top += 25;
+                    seritharaket = false;
+
+                }
+            }
+
+        
+
+    
+            
 
         }
     }
