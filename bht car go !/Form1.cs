@@ -146,7 +146,9 @@ namespace bht_car_go__
                     seritsayisi--;
             }
             aracyerine();
-        }
+            labelderece.Text = Settings1.Default.derece.ToString();
+        
+    }
         private void Form1_Load(object sender, EventArgs e)
         {
             for (var i = 0; i < rndcar.Length; i++)
@@ -159,8 +161,44 @@ namespace bht_car_go__
         }
         // grafiğimizdeki şeritleri for döngüsüyle sonsuz döngüye sokarak hep haraket etmesini sağladık.
         bool seritharaket = false;
+        void hizlevel()
+        {
+            //2.seviye
+            if (yol > 150 && yol < 300)
+            {
+                hız = 100;
+                timerserit.Interval = 125;
+                timerrandomcar.Interval = 100;
+
+            }
+            //3.seviye 
+
+            else if (yol > 300 && yol < 550)
+            {
+                hız = 130;
+                timerserit.Interval = 100;
+                timerrandomcar.Interval = 80;
+
+            }
+
+
+            //4.seviye
+
+            else if (yol > 550)
+            {
+                hız = 170;
+                timerserit.Interval = 80;
+                timerrandomcar.Interval = 20;
+
+            }
+
+
+        }
         private void timerserit_Tick(object sender, EventArgs e)
         {
+            yol++;
+            hizlevel();
+
             if (seritharaket == false)
             {
                 for (int i = 1; i < 7; i++)
@@ -181,6 +219,9 @@ namespace bht_car_go__
 
                 }
             }
+            labelyol.Text = yol.ToString() + "m";
+            labelhız.Text = hız.ToString() + "km/h";
+
 
 
 
@@ -255,7 +296,14 @@ namespace bht_car_go__
                     {
                         timerrandomcar.Enabled = false;
                         timerserit.Enabled = false;
-                        DialogResult dr =MessageBox.Show("Oyun bitti tekrardan denemek ister misiniz?","Uyarı", MessageBoxButtons.YesNo , MessageBoxIcon.Question);
+
+                        if (yol > Settings1.Default.derece)
+                        {
+                            MessageBox.Show("yeni dereceniz ==>" + yol.ToString() + "m", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Settings1.Default.derece = yol;
+                            Settings1.Default.Save();
+                        }
+                            DialogResult dr =MessageBox.Show("Oyun bitti tekrardan denemek ister misiniz?","Uyarı", MessageBoxButtons.YesNo , MessageBoxIcon.Question);
 
                         if (dr== DialogResult.Yes)
                         {
@@ -275,6 +323,7 @@ namespace bht_car_go__
 
                             timerserit.Enabled = true;
                             timerserit.Interval = 200;
+                            labelderece.Text = Settings1.Default.derece.ToString();
                         }
                         else
                         {
