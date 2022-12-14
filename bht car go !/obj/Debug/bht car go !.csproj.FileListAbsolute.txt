@@ -86,3 +86,14 @@ C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht c
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\bin\Debug\bht car go !.exe.config
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\bin\Debug\bht car go !.exe
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\bin\Debug\bht car go !.pdb
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\bin\Debug\bht car go !.exe.config
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\bin\Debug\bht car go !.exe
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\bin\Debug\bht car go !.pdb
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht car go !.csproj.AssemblyReference.cache
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht car go !.csproj.SuggestedBindingRedirects.cache
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht_car_go__.Form1.resources
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht_car_go__.Properties.Resources.resources
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht car go !.csproj.GenerateResource.cache
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht car go !.csproj.CoreCompileInputs.cache
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht car go !.exe
+C:\Users\totol\Desktop\Yeni klasör (2)\bht car go !\obj\Debug\bht car go !.pdb

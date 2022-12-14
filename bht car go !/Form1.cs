@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bht_car_go__.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -242,7 +243,49 @@ namespace bht_car_go__
                         }
                     }
                 }
+                // Kaza Durumu
+                if (rndcar[i].vakit)
+                {
+                    float mutlakX = Math.Abs((kırmızıaraba.Left + (kırmızıaraba.Width / 2)) - (rndcar[i].fakecar.Left + (rndcar[i].fakecar.Width / 2)));
+                    float mutlakY = Math.Abs((kırmızıaraba.Top + (kırmızıaraba.Height / 2)) - (rndcar[i].fakecar.Top + (rndcar[i].fakecar.Height / 2)));
+                    float FarkGenislik = (kırmızıaraba.Width / 2) + (rndcar[i].fakecar.Width / 2);
+                    float FarkYukseklik = (kırmızıaraba.Height / 2) + (rndcar[i].fakecar.Height / 2);
+                  //Kaza durumunda messagebox ile ekranda gösterilecek yazılar yazıldı.
+                    if ((FarkGenislik > mutlakX) && (FarkYukseklik > mutlakY))
+                    {
+                        timerrandomcar.Enabled = false;
+                        timerserit.Enabled = false;
+                        DialogResult dr =MessageBox.Show("Oyun bitti tekrardan denemek ister misiniz?","Uyarı", MessageBoxButtons.YesNo , MessageBoxIcon.Question);
+
+                        if (dr== DialogResult.Yes)
+                        {
+                            aracyerine();
+                            for(int j = 0; j<rndcar.Length;j++)
+                            {
+                                rndcar[j].fakecar.Dispose();
+                                rndcar[j].fakehavecar = false;
+                                rndcar[j].vakit = false;
+                            }
+                            yol = 0;
+                            hız = 70;  
+                            //burada oyunda yanarsak tekrardan denemek istenip istenmediği penceresini ayarladım tekrardan denenmek isterse oyun yeniden başlar istenmez ise kapanır .
+                            rndcar[0].vakit = true;
+                            timerrandomcar.Enabled=true;
+                            timerrandomcar.Interval = 200;
+
+                            timerserit.Enabled = true;
+                            timerserit.Interval = 200;
+                        }
+                        else
+                        {
+                            this.Close();
+                        }
+                      
+
+                    }
+
+                }
             }
         }
-    }
+   }
 }
