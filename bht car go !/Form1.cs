@@ -216,6 +216,31 @@ namespace bht_car_go__
                     this.Controls.Add(rndcar[i].fakecar);
                     rndcar[i].fakehavecar = true;
                 }
+                 else
+                {
+                    if (rndcar[i].vakit)
+                    {
+                        rndcar[i].fakecar.Top += 20;
+                        if (rndcar[i].fakecar.Top >=154)
+                        {
+                            for (int j=0;j < rndcar.Length; j++)
+                            {
+                                if (!rndcar[j].vakit)
+                                {
+                                    rndcar[j].vakit = true;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if (rndcar[i].fakecar.Top >= this.Height -= 20)
+                    {
+
+                        rndcar[i].fakecar.Dispose();
+                        rndcar[i].fakehavecar = false;
+                        rndcar[i].vakit = false;
+                    }
+                }
             }
         }
     }
