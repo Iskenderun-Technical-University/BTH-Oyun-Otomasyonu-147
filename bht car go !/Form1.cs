@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace bht_car_go__
 {
@@ -78,7 +79,7 @@ namespace bht_car_go__
 
         }
 
-       
+
 
         private void label6_Click_1(object sender, EventArgs e)
         {
@@ -117,11 +118,11 @@ namespace bht_car_go__
         //if else location komutlarıyla araba sağ sol yaptıgında bulunması gereken yerler belirlendi
         private void aracyerine()
         {
-            if(seritsayisi==1)
+            if (seritsayisi == 1)
             {
-                kırmızıaraba.Location = new Point(235 , 360);
+                kırmızıaraba.Location = new Point(235, 360);
             }
-            else if  (seritsayisi == 0)
+            else if (seritsayisi == 0)
             {
                 kırmızıaraba.Location = new Point(70, 360);
             }
@@ -133,12 +134,12 @@ namespace bht_car_go__
         //// arabaya e.keykode ile yön tuşları atandı
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Right || e.KeyCode ==Keys.D)
+            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
             {
                 if (seritsayisi < 2)
                     seritsayisi++;
             }
-            else if (e.KeyCode == Keys.Left || e.KeyCode ==Keys.A)
+            else if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A)
             {
                 if (seritsayisi > 0)
                     seritsayisi--;
@@ -161,7 +162,7 @@ namespace bht_car_go__
         {
             if (seritharaket == false)
             {
-                for (int i =1;i<7;i++ )
+                for (int i = 1; i < 7; i++)
                 {
                     this.Controls.Find("labelsolserit" + i.ToString(), true)[0].Top -= 25;
                     this.Controls.Find("labelsagserit" + i.ToString(), true)[0].Top -= 25;
@@ -180,10 +181,10 @@ namespace bht_car_go__
                 }
             }
 
-        
 
-    
-            
+
+
+
 
         }
 
@@ -216,14 +217,14 @@ namespace bht_car_go__
                     this.Controls.Add(rndcar[i].fakecar);
                     rndcar[i].fakehavecar = true;
                 }
-                 else
+                else
                 {
                     if (rndcar[i].vakit)
                     {
                         rndcar[i].fakecar.Top += 20;
-                        if (rndcar[i].fakecar.Top >=154)
+                        if (rndcar[i].fakecar.Top >= 154)
                         {
-                            for (int j=0;j < rndcar.Length; j++)
+                            for (int j = 0; j < rndcar.Length; j++)
                             {
                                 if (!rndcar[j].vakit)
                                 {
@@ -232,13 +233,13 @@ namespace bht_car_go__
                                 }
                             }
                         }
-                    }
-                    if (rndcar[i].fakecar.Top >= this.Height -= 20)
-                    {
+                        if (rndcar[i].fakecar.Top >= this.Height - 20)
+                        {
 
-                        rndcar[i].fakecar.Dispose();
-                        rndcar[i].fakehavecar = false;
-                        rndcar[i].vakit = false;
+                            rndcar[i].fakecar.Dispose();
+                            rndcar[i].fakehavecar = false;
+                            rndcar[i].vakit = false;
+                        }
                     }
                 }
             }

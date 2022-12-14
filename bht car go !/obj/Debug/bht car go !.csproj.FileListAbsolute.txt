@@ -75,3 +75,14 @@ C:\Users\MY ASUS\Source\Repos\BTH-Oyun-Otomasyonu-147\bht car go !\obj\Debug\bht
 C:\Users\MY ASUS\Source\Repos\BTH-Oyun-Otomasyonu-147\bht car go !\obj\Debug\bht car go !.csproj.CoreCompileInputs.cache
 C:\Users\MY ASUS\Source\Repos\BTH-Oyun-Otomasyonu-147\bht car go !\obj\Debug\bht car go !.exe
 C:\Users\MY ASUS\Source\Repos\BTH-Oyun-Otomasyonu-147\bht car go !\obj\Debug\bht car go !.pdb
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht car go !.csproj.AssemblyReference.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht car go !.csproj.SuggestedBindingRedirects.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht_car_go__.Form1.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht_car_go__.Properties.Resources.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht car go !.csproj.GenerateResource.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht car go !.csproj.CoreCompileInputs.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht car go !.exe
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\obj\Debug\bht car go !.pdb
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\bin\Debug\bht car go !.exe.config
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\bin\Debug\bht car go !.exe
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör (6)\bht car go !\bin\Debug\bht car go !.pdb
